@@ -3,6 +3,7 @@ import './App.css';
 import { DefaultLayout } from './layout/DefaultLayout';
 import { Dashboard } from './pages/dashboard/Dashboard.page';
 import { AddTicket } from './pages/new-ticket/AddTicket.page';
+import { TicketLists } from './pages/ticket-listing/TicketLists.page';
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       {/* send page components */}
       <DefaultLayout >
         {/* <Dashboard /> */}
-        <AddTicket />
+        {/* <AddTicket /> */}
+        <TicketLists />
       </DefaultLayout>
     </div>
   );
